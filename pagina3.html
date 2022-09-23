@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pagina3.css">
+    <title>Básico sobre Estilos</title>
+
+   
+</head>
+<body> 
+    <a href="./principal.html"> Voltar Página Principal</a>
+    <h1>Básico sobre Estilos</h1>
+  
+    <div class="div">
+    <h3>CSS é a linguagem que usamos para estilizar uma página da Web. </h3>
+    
+    <h2>CSS externo</h2>
+    
+  <p> Uma folha de estilo externa é usada para definir o estilo de muitas páginas HTML.
+
+    Para usar uma folha de estilo externa, adicione um link a ela na <head>seção de cada página HTML: </p> 
+
+<p> Exemplo: <br>
+    < !DOCTYPE html> <br>
+    < html > <br>
+    < head> <br>
+    < link rel="stylesheet" href="styles.css"> <br>
+    < /head> <br>
+    < body>  <br>
+    </p>
+
+
+    <h2>CSS inline</h2>
+
+   <p> Um CSS embutido é usado para aplicar um estilo único a um único elemento HTML.
+
+    Um CSS embutido usa o styleatributo de um elemento HTML. <br>
+
+    O exemplo a seguir define a cor do texto do < h1 > elemento como azul e a cor do texto do < p > elemento como vermelho: </p>
+
+    Exemplo: <br>
+    < h1 style="color:blue;">A Blue Heading < /h1> <br>
+
+    < p style="color:red;">A red paragraph. < /p> 
+
+
+
+    <h2>Estilização de texto </h2>
+    <h4>>Cor do texto</h4>
+    <p> A propriedade  "color" é usada para definir a cor do texto. A cor é especificada por: </p>
+
+    <ul>
+        <li> um nome de cor - como "vermelho" </li>
+        <li>   um valor HEX - como "#ff0000" </li>
+        <li>  um valor RGB - como "rgb(255,0,0)" </li>
+    </ul>
+
+        <p> Exemplo: <br>
+        body {
+        color: blue;
+        }
+        <br>
+        h1 {
+        color: green;
+        }
+       </p>
+
+    
+       <h4>> Cor do texto e cor de fundo </h4>
+     <p> Neste exemplo, definimos a "background-color" propriedade e a "color" propriedade: </p>
+ 
+     Exemplo: <br>
+
+h1 {
+  background-color: black;
+  color: white;
+}
+
+<h4>>Alinhamento de texto </h4>
+<p> A  propriedade "text-align" é usada para definir o alinhamento horizontal de um texto.
+
+Um texto pode ser alinhado à esquerda ou à direita, centralizado ou justificado.</p> 
+
+ <p>
+    Exemplo <br>
+h1 {
+  text-align: center;
+}
+<br>
+h2 {
+  text-align: left;
+}
+<br>
+h3 {
+  text-align: right;
+}
+ </p>
+
+ <h4> A propriedade da família de fontes CSS </h4>
+<p> Em CSS, usamos a font-familypropriedade para especificar a fonte de um texto. </p>
+
+<p>
+    Exemplo: <br>
+    .p1 {
+        font-family: "Times New Roman", Times, serif;
+      }
+</p>
+
+ <h4>Tamanho da fonte</h4>
+   <p> A font-sizepropriedade define o tamanho do texto. </p>
+
+    Exemplo: <br>
+h1 {
+  font-size: 40px;
+}
+
+
+
+
+    <h2>Modelo box model</h2>
+
+   <p> O modelo de caixa em CSS, o termo "modelo de caixa" é usado quando se fala de design e layout.
+
+ O modelo de caixa CSS é essencialmente uma caixa que envolve cada elemento HTML.
+ Ele consiste em: margens, bordas, preenchimento e o conteúdo real. A imagem abaixo ilustra o modelo da caixa: </p>
+
+ <p>
+  Explicação das diferentes partes:
+
+<ul>
+<li> Content "Conteúdo" - O conteúdo da caixa, onde o texto e as imagens aparecem </li>
+<li> Padding "Preenchimento" - Limpa uma área ao redor do conteúdo. O forro é transparente </li>
+<li> Border "Borda" - Uma borda que contorna o preenchimento e o conteúdo </li>
+<li> Margin "Margem"- Limpa uma área fora da fronteira. A margem é transparente </li>
+</ul>
+O modelo de caixa nos permite adicionar uma borda ao redor dos elementos e definir o espaço entre os elementos. <br>
+Exemplo
+Demonstração do modelo de caixa: <br>
+
+div { <br> 
+  width: 300px; <br>
+  border: 15px solid green; <br>
+  padding: 50px; <br>
+  margin: 20px; <br>
+}
+ </p>
+
+ <img src="imgbox.png" alt="imagem de box model">
+
+  </div>
+    
+</body>
+</html>

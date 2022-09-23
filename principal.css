@@ -1,0 +1,13 @@
+body{
+    background-color: bisque;
+}
+
+.img {
+ text-align: center;
+}
+
+.menu{
+    border-style: solid;
+    color: black;
+    background-color: brown;
+}
